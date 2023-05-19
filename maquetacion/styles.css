@@ -1,0 +1,81 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@200;400;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;300;400&family=Sono:wght@200;300;400&display=swap');
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+p {
+    margin-right: 40px;
+}
+
+h1 {
+    margin: 0px 400px;
+    text-align: center;
+}
+
+button.redondo {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 0px 20px;
+    height: 32px;
+}
+
+#introduction-actions {
+    display: flex;
+    justify-content: center;
+}
+
+#header {
+    border-bottom: 1px solid gray;
+    display: flex;
+    padding: 10px 100px;
+    justify-content: space-between
+}
+
+#header-right{
+    display: flex; align-items: center;
+}
+#impacto{
+    box-sizing: border-box;
+    font-family: inter;
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    background-color: #201b24;
+    width: 100vw;
+    padding-top: 120px;
+    padding-bottom: 100px;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    align-items: center;
+    justify-content: center;
+}
+.impacto__part{
+    width: 35%;
+    display: flex;
+}
+#impacto--letras{
+    font-size: 14px;
+flex-direction: column; 
+}
+.letras__titulo{
+    font-weight: 600;
+    font-size: 30px;
+}
+#impacto--num{
+    flex-direction: row;
+}
+.box{
+    margin: 1rem;
+}
+.box .numero{
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.box .titulo{
+    color: rgb(148, 150, 152);
+}
+
