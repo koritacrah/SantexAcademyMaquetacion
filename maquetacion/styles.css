@@ -78,4 +78,12 @@ flex-direction: column;
 .box .titulo{
     color: rgb(148, 150, 152);
 }
+#imagen{
+    display: flex;
+    width: 100vw;
+    background-image: url(https://github.com/MarianoCoder/SantexAcademy/blob/tareaMaquetacion/maquetacion/twp-home.jpg?raw=true);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 75vh;
+}
 
